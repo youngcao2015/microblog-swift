@@ -22,11 +22,7 @@ class ViewController: UIViewController {
             }
         }
         
-//        let v = UIView(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
-//        v.backgroundColor = UIColor.red
-//        view.addSubview(v)
-        
-        navigationItem.title = "我是标题"
+        navigationItem.title = "标题"
     }
     
     
