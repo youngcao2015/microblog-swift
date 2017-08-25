@@ -16,17 +16,19 @@ class Person: NSObject {
     class func propertyList() -> [String] {
         
         var outCount: UInt32 = 0
-        
         let list = class_copyPropertyList(self, &outCount)
         
-        print(outCount)
-        
         for i in 0..<Int(outCount) {
-            let pty = list?[i]
-            let cName = property_getName(pty!)
-            let name = String(utf8String: cName!)
-            print(name!)
+            guard let pty = list?[i],
+                  let cName = property_getName(pty),
+                  let name = String(utf8String: cName)
+            else {
+                    continue
+            }
+            
+            print(name)
         }
+        
         free(list)
         
         return []
