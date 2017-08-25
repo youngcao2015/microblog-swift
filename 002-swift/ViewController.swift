@@ -16,34 +16,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
       
 
-        loadData { (result) in
-            for item in result {
-                print(item)
-            }
-        }
-        
-        navigationItem.title = "closures"
+        print(Person.propertyList())
     }
-    
-    
-    /// 异步请求
-    ///
-    /// - Parameter completion: 返回请求的数据
-    func loadData(completion: @escaping (_ result: [String]) -> ()) {
-        DispatchQueue.global().async { 
-            print(Thread.current)
-            
-            Thread.sleep(forTimeInterval: 1)
-            
-            let json = ["头条", "八卦", "新闻"]
-            
-            DispatchQueue.main.async(execute: {
-                print(Thread.current)
-                
-                completion(json)
-            })
-        }
-    }
+
     
 }
 

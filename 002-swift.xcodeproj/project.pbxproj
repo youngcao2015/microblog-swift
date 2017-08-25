@@ -15,6 +15,7 @@
 		014CDF361F49CF1D005810FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014CDF341F49CF1D005810FC /* LaunchScreen.storyboard */; };
 		014CDF411F49CF1D005810FC /* _02_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014CDF401F49CF1D005810FC /* _02_swiftTests.swift */; };
 		014CDF4C1F49CF1D005810FC /* _02_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014CDF4B1F49CF1D005810FC /* _02_swiftUITests.swift */; };
+		01BBDB731F50584A00514BD4 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BBDB721F50584A00514BD4 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		014CDF471F49CF1D005810FC /* 002-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "002-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		014CDF4B1F49CF1D005810FC /* _02_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _02_swiftUITests.swift; sourceTree = "<group>"; };
 		014CDF4D1F49CF1D005810FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01BBDB721F50584A00514BD4 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				014CDF2B1F49CF1D005810FC /* AppDelegate.swift */,
 				014CDF2D1F49CF1D005810FC /* ViewController.swift */,
+				01BBDB721F50584A00514BD4 /* Person.swift */,
 				0123A60A1F4E4C7E006E82D1 /* Example.swift */,
 				014CDF2F1F49CF1D005810FC /* Main.storyboard */,
 				014CDF321F49CF1D005810FC /* Assets.xcassets */,
@@ -267,6 +270,7 @@
 			files = (
 				014CDF2E1F49CF1D005810FC /* ViewController.swift in Sources */,
 				014CDF2C1F49CF1D005810FC /* AppDelegate.swift in Sources */,
+				01BBDB731F50584A00514BD4 /* Person.swift in Sources */,
 				0123A60B1F4E4C7E006E82D1 /* Example.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
