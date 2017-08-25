@@ -22,7 +22,7 @@ class ViewController: UIViewController {
             }
         }
         
-        navigationItem.title = "标题"
+        navigationItem.title = "use of closures"
     }
     
     
