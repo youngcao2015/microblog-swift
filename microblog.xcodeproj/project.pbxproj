@@ -21,6 +21,8 @@
 		01BBDC131F51D1F200514BD4 /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BBDC121F51D1F200514BD4 /* MessageController.swift */; };
 		01BBDC151F51D1FF00514BD4 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BBDC141F51D1FF00514BD4 /* ProfileController.swift */; };
 		01BBDC191F51D27000514BD4 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BBDC181F51D27000514BD4 /* Bundle+Extension.swift */; };
+		01BBDC1B1F51D72B00514BD4 /* Obj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BBDC1A1F51D72B00514BD4 /* Obj.swift */; };
+		01BBDC1D1F51D73F00514BD4 /* VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BBDC1C1F51D73F00514BD4 /* VM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		01BBDC121F51D1F200514BD4 /* MessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
 		01BBDC141F51D1FF00514BD4 /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		01BBDC181F51D27000514BD4 /* Bundle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		01BBDC1A1F51D72B00514BD4 /* Obj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Obj.swift; sourceTree = "<group>"; };
+		01BBDC1C1F51D73F00514BD4 /* VM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +157,7 @@
 		01BBDBFC1F51CDC300514BD4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				01BBDC1A1F51D72B00514BD4 /* Obj.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -214,6 +219,7 @@
 		01BBDC061F51CDC300514BD4 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				01BBDC1C1F51D73F00514BD4 /* VM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -373,7 +379,9 @@
 			files = (
 				01BBDBC81F51B2EE00514BD4 /* AppDelegate.swift in Sources */,
 				01BBDC191F51D27000514BD4 /* Bundle+Extension.swift in Sources */,
+				01BBDC1D1F51D73F00514BD4 /* VM.swift in Sources */,
 				01BBDC111F51D1E400514BD4 /* DiscoverController.swift in Sources */,
+				01BBDC1B1F51D72B00514BD4 /* Obj.swift in Sources */,
 				01BBDC0B1F51D12000514BD4 /* NavigationController.swift in Sources */,
 				01BBDC131F51D1F200514BD4 /* MessageController.swift in Sources */,
 				01BBDC0F1F51D1CE00514BD4 /* HomeController.swift in Sources */,
