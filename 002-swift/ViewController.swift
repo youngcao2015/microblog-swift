@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
       
-
+        // 获取属性列表
         print(Person.propertyList())
     }
 
